@@ -516,7 +516,7 @@ public class Program
 		Console.Write("Entrez le premier nombre : ");
 		
 		// Lecture, transformation en entier et assignation du premier nombre
-		nombre1 = int.Parse(Console.ReadLine());
+		nombre1 = double.Parse(Console.ReadLine());
 
 		// Affichage de la question
 		Console.Write("Entrez l'opération (+,-,/,*) : ");
@@ -526,7 +526,7 @@ public class Program
 		// Affichage de la question
 		Console.Write("Entrez le deuxième nombre : ");
 		// Lecture, transformation en entier et assignation du second nombre
-		nombre2 = int.Parse(Console.ReadLine());
+		nombre2 = double.Parse(Console.ReadLine());
 		
 		// Déclaration du résultat et assignation de la valeur NaN (Not a number)
 		double resultat = double.NaN;
